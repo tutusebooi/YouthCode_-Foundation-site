@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Youthcode Foundation — Code. Build. Employ.</title>
+<meta name="description" content="Youthcode Foundation is a youth empowerment organisation in Thembalethu, George, building digital skills, entrepreneurship and local jobs through an 8-programme, 3-year roadmap.">
+<link rel="icon" type="image/png" href="assets/mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ NAV ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">
+      <img src="assets/mark.png" alt="" class="nav-mark">
+      <span class="nav-word">Youthcode</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="#programmes">Programmes</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#impact">Impact</a>
+      <a href="#partners">Partners</a>
+      <a href="#contact" class="nav-cta">Get involved</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ HERO ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<header class="hero" id="top">
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <p class="eyebrow"><span class="eyebrow-dot"></span> Thembalethu &middot; George &middot; Western Cape</p>
+
+    <h1 class="hero-title">
+      <span class="bracket-line">
+        <svg class="bracket-svg" viewBox="0 0 120 100" aria-hidden="true">
+          <polyline class="bracket-stroke bracket-left" points="42,12 8,50 42,88" />
+          <polyline class="bracket-stroke bracket-right" points="78,12 112,50 78,88" />
+          <line class="bracket-stroke bracket-slash" x1="68" y1="8" x2="52" y2="92" />
+        </svg>
+      </span>
+      <span class="hero-typed-wrap">We compile<br><span class="hero-typed" id="heroTyped"></span><span class="caret">|</span></span>
+    </h1>
+
+    <p class="hero-sub">Youthcode Foundation trains, employs and backs young people in Thembalethu &mdash; turning unused buildings, idle skills and real local problems into a working economy. Eight programmes. Three years. One township-built platform.</p>
+
+    <div class="hero-actions">
+      <a href="#programmes" class="btn btn-primary">See the eight programmes</a>
+      <a href="#contact" class="btn btn-ghost">Partner with us</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num" data-target="8">0</span><span class="stat-label">programmes</span></div>
+      <div class="stat"><span class="stat-num" data-target="150" data-suffix="+">0</span><span class="stat-label">youth to be trained</span></div>
+      <div class="stat"><span class="stat-num" data-target="25" data-suffix="+">0</span><span class="stat-label">jobs targeted</span></div>
+      <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-label">year roadmap</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ MISSION STRIP ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section class="mission">
+  <div class="mission-inner">
+    <div class="mission-tag">// mission</div>
+    <p class="mission-text">To empower youth through skills training, local economic projects, technology, research, entrepreneurship and partnerships that create <em>sustainable</em> community development &mdash; built in Thembalethu, for Thembalethu, by the people who live here.</p>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ PROBLEM ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section class="problem" id="problem">
+  <div class="section-inner">
+    <p class="section-eyebrow">// the problem</p>
+    <h2 class="section-title">Talent isn't the gap. Access is.</h2>
+    <div class="problem-grid">
+      <div class="problem-card">
+        <span class="problem-mark">01</span>
+        <h3>Youth unemployment</h3>
+        <p>Thembalethu's NEET rate sits far above the national average — not for lack of ability, but for lack of structured opportunity.</p>
+      </div>
+      <div class="problem-card">
+        <span class="problem-mark">02</span>
+        <h3>No dedicated hub</h3>
+        <p>There is currently no youth-focused skills, innovation or enterprise space serving the community directly.</p>
+      </div>
+      <div class="problem-card">
+        <span class="problem-mark">03</span>
+        <h3>Digital divide</h3>
+        <p>Limited access to computers, connectivity and structured digital training keeps young people locked out of remote and online income.</p>
+      </div>
+      <div class="problem-card">
+        <span class="problem-mark">04</span>
+        <h3>Disconnected economy</h3>
+        <p>George's economy is growing — but Thembalethu isn't yet wired into that growth. We aim to build the bridge.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ PROGRAMMES ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section class="programmes" id="programmes">
+  <div class="section-inner">
+    <p class="section-eyebrow">// programmes.json</p>
+    <h2 class="section-title">Eight programmes, phased to build trust before scale</h2>
+    <p class="section-lede">We don't launch everything on day one. Year 1 proves the model with low-capital, high-impact work. Years 2 and 3 unlock bigger ventures once the track record exists to support them.</p>
+
+    <div class="phase-rail" id="phaseRail">
+      <button class="phase-tab active" data-phase="1">
+        <span class="phase-tab-label">YEAR 1</span>
+        <span class="phase-tab-name">Foundation</span>
+      </button>
+      <button class="phase-tab" data-phase="2">
+        <span class="phase-tab-label">YEAR 2</span>
+        <span class="phase-tab-name">Expansion</span>
+      </button>
+      <button class="phase-tab" data-phase="3">
+        <span class="phase-tab-label">YEAR 3</span>
+        <span class="phase-tab-name">Scale</span>
+      </button>
+    </div>
+
+    <!-- YEAR 1 -->
+    <div class="phase-panel active" data-phase-panel="1">
+      <div class="prog-card">
+        <div class="prog-num">01</div>
+        <div class="prog-body">
+          <h3>Digital Opportunity &amp; Online Employment</h3>
+          <p>Coding, digital marketing, freelancing and AI-tool training that connects youth to remote jobs and online income beyond Thembalethu's borders.</p>
+          <div class="prog-tags"><span>coding</span><span>freelancing</span><span>remote work</span></div>
+        </div>
+      </div>
+      <div class="prog-card">
+        <div class="prog-num">02</div>
+        <div class="prog-body">
+          <h3>Skills Development Partnership</h3>
+          <p>Accredited training aligned to real, researched skills shortages — engineering, construction, renewable energy, agriculture, logistics — delivered with SETA and college partners.</p>
+          <div class="prog-tags"><span>SETA-aligned</span><span>accredited</span><span>industry-ready</span></div>
+        </div>
+      </div>
+      <div class="prog-card">
+        <div class="prog-num">03</div>
+        <div class="prog-body">
+          <h3>Youth Research &amp; Community Solutions Hub</h3>
+          <p>Youth-led research teams collect real community data on unemployment, education, housing and safety — turning it into solutions and funder-ready evidence.</p>
+          <div class="prog-tags"><span>data</span><span>research</span><span>community-led</span></div>
+        </div>
+      </div>
+      <div class="prog-card">
+        <div class="prog-num">04</div>
+        <div class="prog-body">
+          <h3>Community Events &amp; Fundraising</h3>
+          <p>Five major annual events — innovation exhibitions, sports, markets, culture — generating revenue, visibility and a growing partner network from day one.</p>
+          <div class="prog-tags"><span>5x / year</span><span>revenue</span><span>networking</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- YEAR 2 -->
+    <div class="phase-panel" data-phase-panel="2">
+      <div class="prog-card">
+        <div class="prog-num">05</div>
+        <div class="prog-body">
+          <h3>Innovation &amp; Graduate Development Centre</h3>
+          <p>Workspace, prototyping tools and mentorship for graduates and young innovators to build real products, startups and engineering projects.</p>
+          <div class="prog-tags"><span>incubation</span><span>mentorship</span><span>prototyping</span></div>
+        </div>
+      </div>
+      <div class="prog-card">
+        <div class="prog-num">06</div>
+        <div class="prog-body">
+          <h3>Community Swimming Development Centre</h3>
+          <p>A municipal pool reborn as a jobs engine: ~10 certified youth instructors and lifeguards delivering swim lessons, water safety and school programmes.</p>
+          <div class="prog-tags"><span>~10 jobs</span><span>certification</span><span>child safety</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- YEAR 3 -->
+    <div class="phase-panel" data-phase-panel="3">
+      <div class="prog-card">
+        <div class="prog-num">07</div>
+        <div class="prog-body">
+          <h3>Plastic Recycling &amp; Smart Agriculture</h3>
+          <p>Recycled plastic waste becomes vertical farming systems and home gardening kits — green jobs, cleaner streets, and local food production in one loop.</p>
+          <div class="prog-tags"><span>green jobs</span><span>circular economy</span><span>food production</span></div>
+        </div>
+      </div>
+      <div class="prog-card">
+        <div class="prog-num">08</div>
+        <div class="prog-body">
+          <h3>Community Bakery &amp; Local Supply</h3>
+          <p>A local bakery employing ~15 people, supplying shops, schools and events &mdash; keeping money circulating inside the Thembalethu economy.</p>
+          <div class="prog-tags"><span>~15 jobs</span><span>local supply</span><span>enterprise</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ROADMAP ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section class="roadmap" id="roadmap">
+  <div class="section-inner">
+    <p class="section-eyebrow light">// roadmap.yml</p>
+    <h2 class="section-title light">Three years, building in order</h2>
+    <div class="commit-line">
+      <div class="commit" data-year="1">
+        <div class="commit-dot"></div>
+        <div class="commit-card">
+          <span class="commit-tag">Year 1 &middot; Foundation</span>
+          <ul>
+            <li>Register as NPC / NPO</li>
+            <li>Launch Programmes 01&ndash;04</li>
+            <li>Build 5+ founding partnerships</li>
+            <li>Establish funding track record</li>
+          </ul>
+        </div>
+      </div>
+      <div class="commit" data-year="2">
+        <div class="commit-dot"></div>
+        <div class="commit-card">
+          <span class="commit-tag">Year 2 &middot; Expansion</span>
+          <ul>
+            <li>Secure Innovation Centre facility</li>
+            <li>Certify swim instructors &amp; lifeguards</li>
+            <li>Launch Programmes 05&ndash;06</li>
+            <li>Scale Year 1 work from research findings</li>
+          </ul>
+        </div>
+      </div>
+      <div class="commit" data-year="3">
+        <div class="commit-dot"></div>
+        <div class="commit-card">
+          <span class="commit-tag">Year 3 &middot; Scale</span>
+          <ul>
+            <li>Launch recycling &amp; agriculture project</li>
+            <li>Launch community bakery</li>
+            <li>Hit 30&ndash;40% self-generated income</li>
+            <li>Document model for replication</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ IMPACT ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section class="impact" id="impact">
+  <div class="section-inner">
+    <p class="section-eyebrow">// impact.target(years=3)</p>
+    <h2 class="section-title">What we're measuring ourselves against</h2>
+    <div class="impact-grid">
+      <div class="impact-card"><span class="impact-num">150<span class="impact-plus">+</span></span><span class="impact-label">youth trained across all programmes</span></div>
+      <div class="impact-card"><span class="impact-num">25<span class="impact-plus">+</span></span><span class="impact-label">sustainable direct jobs created</span></div>
+      <div class="impact-card"><span class="impact-num">20<span class="impact-plus">+</span></span><span class="impact-label">youth-led businesses or income streams</span></div>
+      <div class="impact-card"><span class="impact-num">15<span class="impact-plus">+</span></span><span class="impact-label">community events hosted</span></div>
+      <div class="impact-card"><span class="impact-num">200<span class="impact-plus">+</span></span><span class="impact-label">children trained in water safety</span></div>
+      <div class="impact-card"><span class="impact-num">10<span class="impact-plus">+</span></span><span class="impact-label">formal partnerships established</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ PARTNERS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section class="partners" id="partners">
+  <div class="section-inner">
+    <p class="section-eyebrow">// dependencies</p>
+    <h2 class="section-title">Who we're building with</h2>
+    <p class="section-lede">No single organisation runs eight programmes alone. Here's the kind of partner each phase depends on.</p>
+    <div class="partner-grid">
+      <div class="partner-card">
+        <h3>Government</h3>
+        <p>George Municipality, WC Dept of Infrastructure, NYDA, DEDAT, SEDFA</p>
+        <span class="partner-gives">Facility access &middot; grants &middot; policy support</span>
+      </div>
+      <div class="partner-card">
+        <h3>Education</h3>
+        <p>TVET colleges, universities, SETAs</p>
+        <span class="partner-gives">Accredited training &middot; certification</span>
+      </div>
+      <div class="partner-card">
+        <h3>Private sector</h3>
+        <p>Tech firms, retailers, manufacturers, agri-businesses</p>
+        <span class="partner-gives">CSR funding &middot; equipment &middot; mentorship</span>
+      </div>
+      <div class="partner-card">
+        <h3>NGOs</h3>
+        <p>DAG, FEM, Tusk, Business Partners</p>
+        <span class="partner-gives">Technical support &middot; funder networks</span>
+      </div>
+      <div class="partner-card">
+        <h3>Community</h3>
+        <p>Ward committees, churches, sports clubs</p>
+        <span class="partner-gives">Trust &middot; referrals &middot; local legitimacy</span>
+      </div>
+      <div class="partner-card">
+        <h3>Investors</h3>
+        <p>uMaStandi, TUHF, impact investors</p>
+        <span class="partner-gives">Capital for Year 2/3 ventures</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ CONTACT / CTA ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section class="contact" id="contact">
+  <div class="section-inner contact-inner">
+    <div class="contact-left">
+      <p class="section-eyebrow light">// contact.init()</p>
+      <h2 class="section-title light">Let's build this together</h2>
+      <p class="contact-lede">Funder, government department, training provider, or just someone who wants to help — we want to hear from you.</p>
+      <div class="contact-details">
+        <a href="mailto:tutusebooi@gmail.com" class="contact-line">
+          <span class="contact-icon">✉</span> tutusebooi@gmail.com
+        </a>
+        <a href="tel:+27834790698" class="contact-line">
+          <span class="contact-icon">☎</span> 083 479 0698
+        </a>
+        <span class="contact-line">
+          <span class="contact-icon">⌖</span> Thembalethu, George, Western Cape
+        </span>
+      </div>
+    </div>
+    <div class="contact-right">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="terminal-title">founder.txt</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="t-prompt">$</span> whoami</p>
+          <p class="t-out">Xolela Max Booi — Founder &amp; Director</p>
+          <p><span class="t-prompt">$</span> background</p>
+          <p class="t-out">WeThinkCode_ Software Engineering Graduate</p>
+          <p class="t-out">Facilitator, Inkcubeko Youth Centre</p>
+          <p><span class="t-prompt">$</span> languages</p>
+          <p class="t-out">isiXhosa, English</p>
+          <p><span class="t-prompt">$</span> status</p>
+          <p class="t-out ok">building Youthcode Foundation_<span class="blink">▌</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ FOOTER ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="assets/mark.png" alt="" class="footer-mark">
+      <span>Youthcode Foundation</span>
+    </div>
+    <p class="footer-copy">&copy; 2026 Youthcode Foundation &middot; Thembalethu, George, Western Cape</p>
+    <p class="footer-tag">&lt;/&gt; built by youth, for youth</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
